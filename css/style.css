@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+
+  background-color: hsl(233, 47%, 7%);
+
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+.main-container {
+  background-color: hsl(244, 38%, 16%);
+  width: 50rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.left-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 2rem 3rem 0 3rem;
+}
+
+.left-container h1 {
+  font-size: x-large;
+
+  padding-bottom: 1rem;
+}
+
+.left-container h1 span {
+  color: hsl(277, 64%, 61%);
+}
+
+.left-container h1 span {
+  color: hsl(277, 64%, 61%);
+}
+
+.left-container p {
+  line-height: 1.6;
+  font-size: 75%;
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-bottom: 3rem;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-right: 3rem;
+  line-height: 1.6;
+}
+
+.stats h2 {
+  font-size: large;
+}
+
+.stats p {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: x-small;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.stats h2 {
+  font-size: large;
+}
+
+.right-container {
+  background: linear-gradient(
+      hsla(277, 64%, 61%, 0.541),
+      hsla(277, 64%, 61%, 0.541)
+    ),
+    url("../images/image-header-desktop.jpg");
+
+  background-size: 100% 100%;
+}
+
+/* Left side */
+
+.background {
+  width: 25rem;
+  height: 20rem;
+  opacity: 0;
+}
